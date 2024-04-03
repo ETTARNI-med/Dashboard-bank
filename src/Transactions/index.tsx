@@ -192,8 +192,11 @@ export default function TransactionsPage() {
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell
-                      className="sm:text-xs lg:text-base"
+                      className="sm:text-xs lg:text-lg lg:font-semibold sm:font-semibold"
                       key={cell.id}
+                      style={{
+                        color: cell.row.original.type === "Deposit" ? "green" : "red"
+                      }}
                     >
                       {flexRender(
                         cell.column.columnDef.cell,

@@ -45,3 +45,5 @@ step 4 : Log In to the App you will have to enter a random Account number(only n
 Step 5 : You can navigate through the application now as you with 
 
 PS : darkMode was implemented and working :) 
+
+Ps : the application is responsive and  works on all devices .
